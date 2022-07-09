@@ -74,13 +74,13 @@ const Formulario = ({ turnos, setTurnos, turno, setTurno}) => {
 
   return (
     <div className="md:w-1/2 lg:w-2/5 mx-5">
-      <h2 className="font-black text-3xl text-center">Seguimiento Turnos</h2>
-      <p className="text-lg mt-5 text-center mb-10">
+      <h2 className="font-black text-3xl text-center text-white">Seguimiento Turnos</h2>
+      <p className="text-lg mt-5 text-center mb-10 text-white">
         Añadir Turnos y {""}
         <span className="text-indigo-600 font-bold">Administrar</span>
       </p>
 
-      <form onSubmit={handleSubmit} className="bg-white shadow-md rounded-lg py-10 px-5 mb-10">
+      <form onSubmit={handleSubmit} className="bg-gray-200 shadow-md rounded-lg py-10 px-5 mb-10">
 
         {error && <Error><p>Todos los campos son obligatorios</p></Error>}
 

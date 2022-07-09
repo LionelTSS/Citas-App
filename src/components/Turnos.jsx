@@ -26,7 +26,7 @@ const Turnos = ({persona, setTurno, eliminarTurno}) => {
   }
 
   return (
-    <div className="mx-5 my-10 bg-white shadow-md px-5 py-7 rounded-xl">
+    <div className="mx-5 my-10 bg-gray-200 shadow-md px-5 py-7 rounded-xl">
         <p className="font-bold mt-3 text-gray-700 uppercase">Nombre: {""}
           <span className="font-normal normal-case">{nombre}</span>
         </p>
